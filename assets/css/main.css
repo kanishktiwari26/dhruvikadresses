@@ -556,7 +556,7 @@
 
 	input[type="text"],
 	input[type="password"],
-	input[type="email"],
+	input[type="phone"],
 	select,
 	textarea {
 		-moz-appearance: none;
@@ -575,7 +575,7 @@
 
 		input[type="text"]:invalid,
 		input[type="password"]:invalid,
-		input[type="email"]:invalid,
+		input[type="phone"]:invalid,
 		select:invalid,
 		textarea:invalid {
 			box-shadow: none;
@@ -584,8 +584,8 @@
 		input[type="text"]:active, input[type="text"]:focus,
 		input[type="password"]:active,
 		input[type="password"]:focus,
-		input[type="email"]:active,
-		input[type="email"]:focus,
+		input[type="phone"]:active,
+		input[type="phone"]:focus,
 		select:active,
 		select:focus,
 		textarea:active,
@@ -627,7 +627,7 @@
 
 	input[type="text"],
 	input[type="password"],
-	input[type="email"],
+	input[type="phone"],
 	select {
 		height: 2.75em;
 	}
