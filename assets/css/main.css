@@ -178,6 +178,7 @@
 
 	h1 {
 		font-size: 2em;
+		font-family: "Great Vibes";
 	}
 
 		@media screen and (max-width: 480px) {
